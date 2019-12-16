@@ -3,7 +3,8 @@
 <suite name="test">
     <test name="test1">
         <classes>
-            <class name="com.ticket.code.testdemo1"/>
+            <class name="com.ticket.code.TestDemo1"/>
+            <class name="com.ticket.code.TestDemo2"/>
         </classes>
     </test>
 </suite>
