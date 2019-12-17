@@ -43,7 +43,7 @@ public class TestDemo2 {
     }
     @AfterGroups("get")
     public void testDemo10(){
-        System.out.println("afterDemo10 groupe执行");
+        System.out.println("afterDemo10 groupe 执行");
     }
 
 }

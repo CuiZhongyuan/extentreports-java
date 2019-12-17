@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="test">
-    <test name="test1">
+<suite name="我自己的测试接口套件">
+    <test name="我自己的测试方模块">
         <classes>
-            <class name="com.ticket.code.TestDemo1"/>
-            <class name="com.ticket.code.TestDemo2"/>
+            <class name="com.ticket.demo.TestMethodsDemo" >
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                    <include name="logDemo"/>
+                    
+                </methods>
+            </class>
+            
         </classes>
     </test>
+    
+    <listeners>
+        <listener class-name="com.ticket.demo.ExtentTestNGIReporterListener"/>
+    </listeners>
 </suite>
