@@ -1,0 +1,8 @@
+{"decription":"第一个mock示例",
+      "request":{
+         "uri":"/demo"
+      },
+       "response":{
+           "test":"第一个moco框架demo"
+        }
+}
