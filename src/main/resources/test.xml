@@ -12,6 +12,11 @@
                     
                 </methods>
             </class>
+            <class name="com.ticket.httpclientDemos.HttpGetDemo">
+                <methods>
+                    <include name="testDemo"/>
+                </methods>
+            </class>
             
         </classes>
     </test>
