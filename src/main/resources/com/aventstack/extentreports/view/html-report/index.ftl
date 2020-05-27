@@ -94,7 +94,7 @@
 		
 		<#assign cdn = config.getValue('cdn')>
 		<#if cdn == 'extentreports'>
-			<script src='../../HttpClient/src/main/resources/static/js/extent.js' type='text/javascript'></script>
+			<script src='./js/extent.js' type='text/javascript'></script>
 		<#else>
 			<script src='${ config.getValue('protocol') }://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
 		</#if>
